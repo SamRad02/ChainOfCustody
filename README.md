@@ -15,3 +15,9 @@ I would suggest using brew to install the dependencies, since the makefile will 
 
 The version of crytogrphy used is 3.4.8. 
 if testing on linux use pycryptodome instead of cryptography. 
+
+
+
+Generative AI Acknowledgment: Portions of the code in this project were generated with assistance from ChatGPT, an AI tool developed by OpenAI. 
+Reference: OpenAI. (2024). ChatGPT [Large language model]. openai.com/chatgpt
+
