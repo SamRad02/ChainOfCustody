@@ -112,6 +112,14 @@ def main():
         except Exception as e:
             print(f"Error: {str(e)}")
             sys.exit(1)
+    elif command == 'summary':
+        try:
+            from summary import run
+            run()
+            sys.exit(0)
+        except Exception as e:
+            print(f"Error: {str(e)}")
+            sys.exit(1)        
     elif command == "remove":
         try:
             from remove import run
