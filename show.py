@@ -6,6 +6,7 @@ from blockchain import Blockchain
 from utils import validate_password, get_role_passwords, get_owner
 
 # Function generated with the help of ChatGPT, OpenAI
+# Used to help find a function that can accurately parse multiple subcommands
 def parse_show_args(args):
     parser = argparse.ArgumentParser(description='Show cases or items')
     subparsers = parser.add_subparsers(dest="subcommand", required=True, help="Subcommand to execute")
